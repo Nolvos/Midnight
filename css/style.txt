@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body {
+     background-color: #301934;
+	/*text-align: center;*/
+	/*font-size: 18pt;*/
+}
+
+
+h1.bigtitle {
+	position: static;
+	top: 50%;
+    left: 50%;
+    transform: trasnlate(-50% -50%);
+    color: #FFFFFF;
+	font-size: 80px;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size: 80px;
+}
+
+
+header {
+	background-image: url(../images/Midnight-background.png);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+	background-size: cover;
+	justify-content: center;
+}
+
+.maincontent
+{
+	width: 90%;
+	max-width: 100%;
+	margin: 10px 5% 0 5%;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	background-color: #CBC3E3;
+	height: 123vh;
+}
+
+.maincontent p
+{
+	padding: 10px;
+}
+
+
+  nav {
+    width: 100%;
+    height: 70px;
+    background: rgba(0,0,0, .8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    font-family: "Anton", serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 35px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+
+  nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    background: purple;
+
+  } 
+div.front {
+  width: 550;
+  float: right;
+  padding: 10px;
+  background-color: #CBC3E3;
+/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  margin-bottom: 20px;
+}
+
+div.back {
+  width: 550;
+  float: left;
+  padding: 10px;
+  background-color: #CBC3E3;
+/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  margin-bottom: 20px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.loc {
+  list-style-image: url('location.jpg');
+}
+
+    .footer{
+        text-align: left;
+    }
+    .footer-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .footer-container div:nth-child(1) p{
+        padding-right: 20px;
+    }
